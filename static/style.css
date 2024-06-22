@@ -1,0 +1,19 @@
+.jumbotron{
+    background-color: orange;
+    display: flex;
+    
+}
+.org_text{
+    display: flex;
+    justify-content: center;
+    
+}
+.sum{
+    display: flex;
+    justify-content: center;
+
+}
+.srt{
+    display: flex;
+    flex-direction: row;
+}
