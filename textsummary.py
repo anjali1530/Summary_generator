@@ -2,19 +2,6 @@ from heapq import nlargest
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
-text="""The giraffe is a large African hoofed mammal belonging to the genus Giraffa. 
-It is the tallest living terrestrial animal and the largest ruminant on Earth. Traditionally,
-giraffes have been thought of as one species, Giraffa camelopardalis, with nine subspecies.
-Most recently, researchers proposed dividing them into four extant species due to new research into 
-their mitochondrial and nuclear DNA, and individual species can be distinguished by their fur coat patterns. 
-Seven other extinct species of Giraffa are known from the fossil record.
-
-The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, 
-and its spotted coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, 
-the okapi. Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west 
-to Somalia in the east. Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits, and flowers
-of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot reach."""
-
 def summarizer(rawdocs):
     stopwords=list(STOP_WORDS)
     #print(stopwords)

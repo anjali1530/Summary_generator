@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request ,render_template  
 from textsummary import summarizer
 
 app = Flask(__name__)
@@ -20,6 +20,3 @@ def analyze():
 
 if __name__=='__main__':
     app.run(debug=True)
-
-
-
